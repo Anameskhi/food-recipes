@@ -3,7 +3,10 @@ import { RouterModule, Routes } from '@angular/router';
 import { RecipesListComponent } from './recipes-list.component';
 
 const routes: Routes = [
-  
+  {
+    path: '',
+    component: RecipesListComponent
+  }
 ];
 
 @NgModule({
